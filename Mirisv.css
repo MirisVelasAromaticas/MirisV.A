@@ -1,0 +1,386 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+
+
+
+
+
+body{
+  margin:0px;
+  background-color: aliceblue;
+  font-family: 'Halimun', sans-serif;
+  
+}
+}
+.wrapper {
+  width:100%; /* Establecemos el ancho*/
+  max-width:1000px; /* ancho maximo*/
+  margin:auto; /* Centramos los elementos */
+  overflow:hidden; /* Eliminamos errores de float */
+}
+
+button {
+  font-size: 15px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 6px 20px;
+}
+.letraft{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.page-nav{
+  background-color: #C68B8B;
+  border: 1px solid #000000;
+  position: relative;
+
+}
+.page-nav h1 {
+  margin: 25px;
+  font-family: 'Halimun', sans-serif;
+  text-align: right;
+  
+}
+
+.button-checkout{
+  background-color: white;
+    color: black;
+    border: 2px solid #000000; /* negro */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 1px;
+    bottom:0;
+}
+.button-checkout:hover{
+  background-color: #718256; /* verde */
+  color: white;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px  ;
+
+}
+.product-container{
+  margin:50px;
+  position: relative; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  background-color: white;
+  flex-wrap: wrap;
+  float: 150px;
+  
+}
+.product-container:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img{
+  width: 200px;
+  margin-right: 8px;
+
+}
+.product-container h1{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 500px;
+}
+
+.button-add{
+  
+  background-color: white;
+    color: black;
+    border: 2px solid #C85252; /* rojo fuerte */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+
+}
+
+.button-add:hover {
+  background-color: #C85252; /* rojo fuerte */
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+ font-family: 'Halimun';
+ margin-left: 15%;
+ margin-right: 15%;
+ text-align: center;
+ font-size:30px;
+ background-color: #C68B8B;
+}
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
+
+/*comienza la barra de navegacion*/
+.letras{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+
+h1{
+  font-family: 'Halimun', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+.estilo-paarrafos{
+  text-align: justify;
+  font-family: 'Baskerville';
+  margin-left: 100px;
+ margin-right: 100px;
+ font-size: 20px;
+}
+p{
+margin-bottom: 1.6em;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+.header{
+  background: #000000;
+  color: black;
+  padding: 2rem 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+
+}
+   .header a{
+    color: #ffffff;
+    text-decoration: none;
+   }
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  letter-spacing: 5px;
+  font-size: 1.4em;
+}
+.img{
+  width: 75px;
+  right: 0px;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+   .navigation ul li{
+    display: inline-block;
+   }
+
+   .navigation li a{
+      background-color: black;
+      color: #fff;
+      text-decoration: none; 
+      padding: 10px 14px;
+      display: block;
+    }
+    .navigation li a:hover{
+      background-color: #434343;
+    }
+    .navigation>li{
+      float:left;
+    }
+    .navigation li ul{
+      display:none;
+      position: absolute;
+      min-width: 140px;
+    }
+    .navigation li:hover>ul {
+      display: block;
+    }
+
+         .navigation ul li a{
+          display: block;
+          padding: 0.5rem 1rem;
+          transition: al 0.4s linear;
+          border-radius: 5px; 
+         }
+             .navigation ul li a:hover{
+              background: #C85252; 
+             }
+
+.main{
+  padding-top: 10rem;
+}
+.container p{
+  font-family: 'Libre Baskerville', serif;
+}
+.footer{
+  background:#f2f2f2;
+  padding: 0.5rem 0;
+  text-align: center;
+  margin-top: 6rem; 
+}
+
+@media only screen and (200px){
+
+
+
+  .navigation {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .navigation ul {
+    display: none;
+  }
+
+   .navigation ul li{
+    display: block;
+   }
+
+         .navigation ul li a{
+          display: block;
+          padding: 0.5rem 0;
+          transition: al 0.4s linear;
+          border-radius: 5px; 
+         }
+             .navigation ul li a:hover{
+              background: #C85252; 
+             }
+
+}
+/*termina personalizacion de la barra de navegacion*/
+
+
+/*personalizacion del Banner*/
+.banner{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #F5F5F5;
+  background-size: cover;
+  background-position: center;
+  transition: all .1s ease-in-out;
+  background-image: url(C:/Users/dylan/Desktop/Miris/Imagenes/banner.png);
+  animation: banner 28s infinite linear;
+  }
+
+  .banner-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgba(0, 20, 30, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+    .banner-content a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 9px 20px;
+      border: 1px solid #ffffff;
+      text-transform: uppercase;
+      transition: all .3s ease-in-out;
+    }
+    .banner-content a:hover{
+      background-color: #718256 ;
+      color: #333;
+
+    }
+@keyframes banner{
+  0%{
+    background-image: url(Imagenes/banner.png);
+  }
+  25%{
+    background-image: url(Imagenes/banner.png);
+  }
+  26%{
+    background-image: url(Imagenes/velas01.jpeg);
+  }
+  50%{
+    background-image: url(Imagenes/velas01.jpeg);
+  }
+  51%{
+    background-image: url(Imagenes/velas02.jpeg);
+  }
+  75%{
+    background-image: url(Imagenes/velas02.jpeg);
+  }
+  76%{
+    background-image: url(Imagenes/velas03.jpeg);
+  }
+  100%{
+    background-image: url(Imagenes/velas03.jpeg);
+  }
+}
+
+
+
+
+
